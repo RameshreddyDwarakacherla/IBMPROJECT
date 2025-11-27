@@ -1,0 +1,41 @@
+========================================
+  RESET REMOTE AND PUSH TO GITHUB
+========================================
+
+Step 1: Go to root directory
+-----------------------------
+cd C:\Users\Rames\Music\IBMfinalyearproject
+
+Step 2: Remove old remote
+--------------------------
+git remote remove origin
+
+Step 3: Add new remote
+----------------------
+git remote add origin https://github.com/RameshreddyDwarakacherla/IBMPROJECT.git
+
+Step 4: Verify remote
+---------------------
+git remote -v
+
+Step 5: Add all changes
+-----------------------
+git add .
+
+Step 6: Commit changes
+----------------------
+git commit -m "Clean up project - Remove 30 redundant docs, add comprehensive README"
+
+Step 7: Push to GitHub
+----------------------
+git push -u origin main
+
+If "main" doesn't work, try:
+git push -u origin master
+
+========================================
+
+DONE! Visit your repo:
+https://github.com/RameshreddyDwarakacherla/IBMPROJECT
+
+========================================

@@ -1,0 +1,31 @@
+========================================
+  PUSH TO GITHUB - COPY THESE COMMANDS
+========================================
+
+Step 1: Go back to root directory
+----------------------------------
+cd ..
+
+Step 2: Add all changes
+-----------------------
+git add .
+
+Step 3: Commit changes
+----------------------
+git commit -m "Clean up project - Remove 30 redundant docs, add comprehensive README and documentation"
+
+Step 4: Push to GitHub
+----------------------
+git push -u origin main
+
+========================================
+
+If "main" doesn't work, try:
+git push -u origin master
+
+========================================
+
+DONE! Visit your repo:
+https://github.com/RameshreddyDwarakacherla/IBMPROJECT
+
+========================================

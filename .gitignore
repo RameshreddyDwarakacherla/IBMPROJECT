@@ -1,7 +1,50 @@
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
 
 # Virtual environment
 .venv/
+venv/
+ENV/
+env/
 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.zencoder/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Test files
+test_*.py
+quick_*.py
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Large files
+*.mp4
+*.pptx
+*.pdf
