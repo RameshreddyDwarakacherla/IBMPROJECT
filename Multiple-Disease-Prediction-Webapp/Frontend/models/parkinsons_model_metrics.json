@@ -1,0 +1,9 @@
+{
+  "model_name": "Parkinsons",
+  "accuracy": 0.96,
+  "model_type": "Random Forest",
+  "features": 22,
+  "training_samples": 800,
+  "test_samples": 200,
+  "positive_rate": 0.25
+}

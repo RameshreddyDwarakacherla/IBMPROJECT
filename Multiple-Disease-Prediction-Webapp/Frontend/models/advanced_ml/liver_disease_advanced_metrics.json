@@ -1,0 +1,28 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "model_type": "SVM",
+  "individual_scores": {
+    "rf": {
+      "accuracy": 0.9975,
+      "f1_score": 0.9975029505860346
+    },
+    "xgb": {
+      "accuracy": 0.99,
+      "f1_score": 0.9900234011670963
+    },
+    "lgb": {
+      "accuracy": 0.9875,
+      "f1_score": 0.9875434980162688
+    },
+    "svm": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "best_params": {},
+  "training_samples": 1600,
+  "test_samples": 400
+}

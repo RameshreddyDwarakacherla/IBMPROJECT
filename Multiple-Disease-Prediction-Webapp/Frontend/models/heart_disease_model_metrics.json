@@ -1,0 +1,9 @@
+{
+  "model_name": "Heart Disease",
+  "accuracy": 0.915,
+  "model_type": "Random Forest",
+  "features": 13,
+  "training_samples": 800,
+  "test_samples": 200,
+  "positive_rate": 0.4
+}

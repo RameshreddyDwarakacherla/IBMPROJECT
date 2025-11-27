@@ -1,0 +1,38 @@
+{
+  "diabetes": {
+    "accuracy": 0.6975,
+    "model_path": "models/deep_learning/diabetes_deep_model.h5",
+    "scaler_path": "models/deep_learning/diabetes_scaler.pkl",
+    "input_features": 8
+  },
+  "heart_disease": {
+    "accuracy": 0.7,
+    "model_path": "models/deep_learning/heart_disease_deep_model.h5",
+    "scaler_path": "models/deep_learning/heart_disease_scaler.pkl",
+    "input_features": 13
+  },
+  "parkinsons": {
+    "accuracy": 0.7025,
+    "model_path": "models/deep_learning/parkinsons_deep_model.h5",
+    "scaler_path": "models/deep_learning/parkinsons_scaler.pkl",
+    "input_features": 22
+  },
+  "liver_disease": {
+    "accuracy": 0.7,
+    "model_path": "models/deep_learning/liver_disease_deep_model.h5",
+    "scaler_path": "models/deep_learning/liver_disease_scaler.pkl",
+    "input_features": 10
+  },
+  "hepatitis": {
+    "accuracy": 0.7,
+    "model_path": "models/deep_learning/hepatitis_deep_model.h5",
+    "scaler_path": "models/deep_learning/hepatitis_scaler.pkl",
+    "input_features": 19
+  },
+  "chronic_kidney": {
+    "accuracy": 0.6925,
+    "model_path": "models/deep_learning/chronic_kidney_deep_model.h5",
+    "scaler_path": "models/deep_learning/chronic_kidney_scaler.pkl",
+    "input_features": 24
+  }
+}

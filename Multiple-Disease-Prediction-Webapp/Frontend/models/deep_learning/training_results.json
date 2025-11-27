@@ -1,0 +1,36 @@
+{
+  "chest_xray_image": {
+    "accuracy": 0.6975,
+    "model_path": "models/deep_learning/chest_xray_image_model.h5",
+    "scaler_path": "models/deep_learning/chest_xray_scaler.pkl",
+    "input_features": 2048,
+    "model_type": "image_classification"
+  },
+  "brain_mri_image": {
+    "accuracy": 0.685,
+    "model_path": "models/deep_learning/brain_mri_image_model.h5",
+    "scaler_path": "models/deep_learning/brain_mri_scaler.pkl",
+    "input_features": 1024,
+    "model_type": "image_classification"
+  },
+  "retinal_scan_image": {
+    "accuracy": 0.7025,
+    "model_path": "models/deep_learning/retinal_scan_image_model.h5",
+    "scaler_path": "models/deep_learning/retinal_scan_scaler.pkl",
+    "input_features": 512,
+    "model_type": "image_classification"
+  },
+  "skin_lesion_image": {
+    "accuracy": 0.6875,
+    "model_path": "models/deep_learning/skin_lesion_image_model.h5",
+    "scaler_path": "models/deep_learning/skin_lesion_scaler.pkl",
+    "input_features": 256,
+    "model_type": "image_classification"
+  },
+  "training_metadata": {
+    "timestamp": "2025-07-31T12:35:19.499991",
+    "tensorflow_version": "2.13.0",
+    "keras_version": "Integrated with TensorFlow",
+    "total_models_trained": 4
+  }
+}

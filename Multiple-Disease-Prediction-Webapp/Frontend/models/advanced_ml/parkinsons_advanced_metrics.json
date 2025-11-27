@@ -1,0 +1,32 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "model_type": "RF",
+  "individual_scores": {
+    "rf": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    },
+    "xgb": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    },
+    "gb": {
+      "accuracy": 0.9975,
+      "f1_score": 0.9975041320941205
+    },
+    "svm": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "best_params": {
+    "max_depth": 10,
+    "min_samples_split": 2,
+    "n_estimators": 100
+  },
+  "training_samples": 1600,
+  "test_samples": 400
+}

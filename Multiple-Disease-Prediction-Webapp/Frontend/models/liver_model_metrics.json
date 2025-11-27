@@ -1,0 +1,9 @@
+{
+  "model_name": "Liver Disease",
+  "accuracy": 0.87,
+  "model_type": "Random Forest",
+  "features": 10,
+  "training_samples": 800,
+  "test_samples": 200,
+  "positive_rate": 0.3
+}
