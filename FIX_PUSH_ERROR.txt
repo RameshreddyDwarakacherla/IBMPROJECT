@@ -1,0 +1,60 @@
+========================================
+  FIX PUSH ERROR - HTTP 408 TIMEOUT
+========================================
+
+The push failed because files are too large (38.59 MB).
+This is likely due to model files (.sav) being very large.
+
+SOLUTION: Increase Git buffer size and retry
+
+========================================
+
+Step 1: Increase Git buffer size
+---------------------------------
+git config --global http.postBuffer 524288000
+
+Step 2: Increase timeout
+-------------------------
+git config --global http.timeout 600
+
+Step 3: Try pushing again
+-------------------------
+git push -u origin main
+
+========================================
+
+If still fails, try pushing in smaller chunks:
+
+Option A: Push without large files first
+-----------------------------------------
+# Add model files to .gitignore temporarily
+echo "*.sav" >> .gitignore
+git add .gitignore
+git commit -m "Temporarily exclude model files"
+git push -u origin main
+
+# Then use Git LFS for large files (recommended)
+git lfs install
+git lfs track "*.sav"
+git add .gitattributes
+git commit -m "Track model files with Git LFS"
+git add Multiple-Disease-Prediction-Webapp/Frontend/models/*.sav
+git commit -m "Add model files via Git LFS"
+git push
+
+========================================
+
+Option B: Use SSH instead of HTTPS
+-----------------------------------
+# Change remote to SSH
+git remote set-url origin git@github.com:RameshreddyDwarakacherla/IBMPROJECT.git
+
+# Push
+git push -u origin main
+
+========================================
+
+RECOMMENDED: Use Git LFS for large model files
+This is the best practice for ML projects with large model files.
+
+========================================

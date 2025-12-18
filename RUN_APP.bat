@@ -1,17 +1,26 @@
 @echo off
 echo ========================================
-echo   iMedDetect Application Launcher
+echo   Multiple Disease Prediction App
 echo ========================================
 echo.
-echo Starting the Multiple Disease Prediction System...
+
+echo Starting application...
 echo.
-echo NOTE: TensorFlow features are disabled due to compatibility issues.
-echo Core disease prediction features are fully functional!
-echo.
-echo The application will open in your default web browser.
-echo Press Ctrl+C to stop the server.
-echo.
+
 cd Multiple-Disease-Prediction-Webapp\Frontend
-echo Starting Streamlit server...
-streamlit run app.py --server.headless true
+
+echo Activating virtual environment...
+call ..\..\..\.venv\Scripts\activate.bat
+
+echo.
+echo Starting Streamlit...
+echo.
+echo The app will open in your browser at:
+echo http://localhost:8501
+echo.
+echo Press Ctrl+C to stop the server
+echo.
+
+streamlit run app.py
+
 pause
